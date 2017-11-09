@@ -1,0 +1,9 @@
+
+### filter.d/nginx-noscript.conf
+
+[nginx-noscript]
+enabled = true
+filter = nginx-noscript
+logpath = /var/log/nginx/access.log
+maxretry = 2
+bantime  = 86400
